@@ -17,7 +17,7 @@ body{
     margin: auto 10% auto 10%;
 }
 
-.btn-trans{
+#btn-trans{
     color: var(--brown);
     background-color: var(--yellow);
     padding: 1rem 1rem;
@@ -30,7 +30,7 @@ body{
     padding: 1rem;
 }
 
-.in-txt-area, .out-txt-area{
+#in-txt-area, #out-txt-area{
     display: block;
     padding: 1rem;
     width: 450px;
