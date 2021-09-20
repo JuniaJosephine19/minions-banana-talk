@@ -1,37 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
-body{
-    text-align: center;
-    font-family: 'Alata', sans-serif;
-}
-
 :root{
     --yellow: #FCD34D;
     --brown: rgb(121, 11, 11);
 }
 
-.header{
-    background-color: var(--yellow);
-    padding: 1rem 2rem;
+body{
+    text-align: center;
+    font-family: 'Alata', sans-serif;
+    color: var(--brown);
 }
 
-#heading{
-    color: var(--brown);
+.header{
+    background-color: var(--yellow);
+    padding: 0.5rem 1rem;
+    margin: auto 10% auto 10%;
 }
 
 .btn-trans{
     color: var(--brown);
     background-color: var(--yellow);
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
     font-size: large;
     border-color: var(--yellow);
     border-radius: 0.3rem;
 }
 
+.div{
+    padding: 1rem;
+}
+
 .in-txt-area, .out-txt-area{
     display: block;
     padding: 1rem;
-    width: 500px;
-    height: 150px;
-    margin: 1rem;
+    width: 450px;
+    height: 90px;
+    margin: 0.5rem auto 1rem auto;
+    font-size: large;
 }
