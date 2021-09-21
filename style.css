@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 
-:root{
+:root {
     --yellow: #FCD34D;
     --brown: rgb(121, 11, 11);
 }
 
-body{
+body {
     text-align: center;
     font-family: 'Alata', sans-serif;
     color: var(--brown);
 }
 
-.header{
+.header {
     background-color: var(--yellow);
     padding: 0.5rem 1rem;
     margin: auto 10% auto 10%;
 }
 
-#btn-trans{
+#btn-trans {
     color: var(--brown);
     background-color: var(--yellow);
     padding: 1rem 1rem;
@@ -26,15 +26,17 @@ body{
     border-radius: 0.3rem;
 }
 
-.div{
+.div {
     padding: 1rem;
 }
 
-#in-txt-area, #out-txt-area{
+#in-txt-area,
+#out-txt-area {
     display: block;
     padding: 1rem;
     width: 450px;
     height: 90px;
     margin: 0.5rem auto 1rem auto;
+    font-family: inherit;
     font-size: large;
 }
